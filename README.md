@@ -31,8 +31,6 @@ This project leverages python 3.7 with the following packages:
 
 * [alpaca_trade_api](https://alpaca.markets/docs/api-documentation/) - For collecting relevant price data from Alpaca Trade API.
 
-* [pytz](https://pypi.org/project/pytz/) - For accurate timezone calculations.
-
 ---
 
 ## Installation Guide
@@ -54,10 +52,10 @@ Before running the application first install the following dependencies:
 
 To use the algorithmic trading application:
 
-1. Locally clone the fib_trading_algo repository from GitHub using the following link:
+1. Locally clone the bollinger_band_trading_algo repository from GitHub using the following link:
 
 ```python
-git clone https://github.com/elliotlozano/fib_trading_algo.git
+https://github.com/elliotlozano/bollinger_band_trading_algo.git
 ```
 
 2. Create an environment (.env) file with your ALPACA_API_KEY and ALPACA_SECRET_KEY in the same folder as algo_trading_app.ipynb.
