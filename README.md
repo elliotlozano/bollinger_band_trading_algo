@@ -86,7 +86,7 @@ Elliot Lozano
 
 Chafic Charafeddine
 
-[hyperlink](email, linkin, other)
+[E-mail](chafic1995@gmail.com)
 
 ---
 
