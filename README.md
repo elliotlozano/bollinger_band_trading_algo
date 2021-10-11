@@ -5,7 +5,7 @@
 
 ## Description
 
-Our team believes the pathway to successful trading is by sticking to a certain technique or set of principles and not straying away from them. This enables us to take the emotion out of trading and perform better overtime. The best way we can standardize our approach to trading is by creating an algorithm that makes profittable trades in any financial market. 
+Our team believes the key to successful trading is sticking to a certain technique or set of principles and never straying away from them. This enables us to take the emotion out of trading and perform better overtime. The best way to implement our approach to trading is by creating an profittable algorithm to automate trades in any financial market. 
 
 This program leverages the power of `Python` and `Pandas` to collect, prepare, and analyze neccessary data. First, it uses APIs to get the latest price data. Next, it cleans the data and consolidates relevant information into a DataFrame. Last, the algorithm generates Bollinger Bands which our model uses to execute buy and sell orders. The trading strategy is simple: during an uptrend ("bull market"), the buy order ("entry") is executed when the asset price crosses below the lower Bollinger Band. To mitigate risk, a stop-loss will be triggered if the price of the asset drops more than 2% after the buy order is placed. Once a position has increased by more than 5%, the model executes a sell order ("exit") in order to take profits.
 
