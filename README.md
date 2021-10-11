@@ -1,11 +1,11 @@
 # Algorithmic Trading
-`This application automates trading for  variety of cryptocurrency portfolios by leveraging a fibonacci retracement strategy that executes trades at "buy" or "sell" zones.`
+`This application automates the process of trading assets by leveraging a Bollinger Band strategy that executes trades once "buy" or "sell" conditions are met.`
 
 ---
 
 ## Description
 
-Description of project, target audience, practical uses.
+Our team believes the pathway to successful trading is by sticking to a certain technique or set of principles and not straying away from them. This enables us to take the emotion out of trading
 
 ---
 
@@ -84,7 +84,7 @@ Elliot Lozano
 
 [E-mail](elliotlozano95@gmail.com)
 
-Chafic (lastname)
+Chafic Charafeddine
 
 [hyperlink](email, linkin, other)
 
