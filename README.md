@@ -9,6 +9,10 @@ Our team believes the key to successful trading is sticking to a certain techniq
 
 This program leverages the power of `Python` and `Pandas` to collect, prepare, and analyze neccessary data. First, it uses APIs to get the latest price data. Next, it cleans the data and consolidates relevant information into a DataFrame. Last, the algorithm generates Bollinger Bands which our model uses to execute buy and sell orders. The trading strategy is simple: during an uptrend ("bull market"), the buy order ("entry") is executed when the asset price crosses below the lower Bollinger Band. To mitigate risk, a stop-loss will be triggered if the price of the asset drops more than 2% after the buy order is placed. Once a position has increased by more than 5%, the model executes a sell order ("exit") in order to take profits.
 
+Click on the following link to see our presentation on the trading strategy:
+
+[BB_Presentation](https://docs.google.com/presentation/d/1kOMUL6ZyVVP1Z6Sr-A5al8_2ikxAZsnAl3Idg94fg4Y/edit#slide=id.gf69e52f923_0_112)
+
 ---
 
 ## Technologies
