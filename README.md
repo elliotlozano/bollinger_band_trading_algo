@@ -25,6 +25,10 @@ This project leverages python 3.7 with the following packages:
 
 * [numpy](https://github.com/numpy/numpy) - For scientific computing in Python.
 
+* [finta](https://pypi.org/project/finta/) - For technical analysis and indicators in Pandas.
+
+* [btalib](https://pypi.org/project/bta-lib/) - For technical analysis and indicators in Pandas.
+
 * [os](https://docs.python.org/3/library/os.html) - For providing a portable way of using operating system dependent functionality.
 
 * [datetime](https://docs.python.org/3/library/datetime.html) - For supplying classes for manipulating dates and times.
@@ -47,9 +51,13 @@ Before running the application first install the following dependencies:
   pip install pandas
   pip install mkdocs
   pip install numpy
+  pip install finta
+  pip install bta-lib
   pip install requests
   pip install python-dotenv
   pip install alpaca-trade-api
+  pip install coinbase
+  pip install cbpro
 ```
 
 ---
@@ -64,23 +72,23 @@ To use the algorithmic trading application:
 https://github.com/elliotlozano/bollinger_band_trading_algo.git
 ```
 
-2. Create an environment (.env) file with your ALPACA_API_KEY and ALPACA_SECRET_KEY in the same folder as algo_trading_app.ipynb.
+2. Create an environment (.env) file with your ALPACA_API_KEY and ALPACA_SECRET_KEY in the same folder as Bollinger_Band_Algo_Backtest_and_ML.ipynb.
 
-3. Run the [Algorithmic Trading Application](algo_trading_app.ipynb) program.
+3. Run the [Algorithmic Trading](Bollinger_Band_Algo_Backtest_and_ML.ipynb) program.
 
 4. Examine the graphs and review the commentary describing the significance of the results.
 
 ---
 
-## Findings
+## Performance and Next Steps
 
-Intro sentence for findings section.
+After back-testing our model on historical price data the results show there were no losses accrued.
 
-![title](name.png)
-`analysis`
+![Cumulative Profit](cumulative_profit.png)
+`This image shows that our model consistently made profits trading BTC since early 2017 and recorded no losses. While the y-axis doesn't show the actual amount returned, you can still see the return only climbed upwards.`
 
-![title](name.png)
-`analysis`
+![Alternative Strategy](alternative_strategy.png)
+`In order to make sure our alorithm is as robust as possible we must consider different strategies and compare them. This image shows where "buy" and "sell" orders would occur with another strategy we are working on. This model buys at the lower band and sells at the upper band.`
 
 ---
 
